@@ -1,6 +1,6 @@
 ## Prerequisities
-OS: Debian 6.0.10,  Ubuntu 18.04+ and CentOS 7.6 fully tested, other Linux releases and MacOS 10.12+ should also work but not fully tested.
-Software: GLIBC_2.18 or higher version, Python 3 or higher version, openssh-server is correctly configured (check if `ssh localhost` works), time(/usr/bin/time) is installed.
+* OS: Debian 6.0.10,  Ubuntu 18.04+ and CentOS 7.6 fully tested, other Linux releases and MacOS 10.12+ should also work but not fully tested.
+* Software: GLIBC_2.18 or higher version, Python 3 or higher version, openssh-server is correctly configured (check if `ssh localhost` works), time(/usr/bin/time) is installed.
 
 
 ## Configurations
