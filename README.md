@@ -27,12 +27,6 @@ The configuration folder is "conf", where there are three files to configure:
                       by default.
 * $prefix: the prefix of the file of the partitioned graph data.
 * $tri_prefix: the prefix of the file of the triangle partitioned graph data..
-         **************************************************************************************
-            We normally set $prefix as h[$number_machines]w[$number_workers] for random
-            hash partition, and h[$number_machines]w[$number_workers]t for triangle partition.
-            For example, if you have 10 machines, each runs 3 workers, you will set it to
-            h10w3 and h10w3t, respectively.
-         **************************************************************************************
 
 ## Data Storage & Preprocessing
 The storage hierarchy used in the experiment looks like the following.
