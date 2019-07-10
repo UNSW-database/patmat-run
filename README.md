@@ -1,4 +1,4 @@
-[Copyright]
+## Copyright
 
 MIT License
 
@@ -22,36 +22,35 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-
-[Prerequisities]
+## Prerequisities
 OS: Debian 6.0.10,  Ubuntu 18.04+ and CentOS 7.6 fully tested, other Linux releases and MacOS 10.12+ should also work but not fully tested.
 Software: GLIBC_2.18 or higher version, Python 3 or higher version, openssh-server is correctly configured (check if `ssh localhost` works), time(/usr/bin/time) is installed.
 
 
-[Configurations]
+## Configurations
 The configuration folder is "conf", where there are three files to configure:
-    1. params.ini
-        - workdir: The **absolute** directory of the working folder. It is the root directory
+### params.ini
+* workdir: The **absolute** directory of the working folder. It is the root directory
         of the data and temporary files. After configuring the workdir, you data should be placed at: $workdir/$graph_name/DATA/$prefix.
-        - number_workers: number of workers in each machine.
-        - number_machines: number of machines used in cluster.
+* number_workers: number of workers in each machine.
+* number_machines: number of machines used in cluster.
 
-    2. hosts. The host file used in Timely dataflow. Each line is in the form of:
+### hosts. The host file used in Timely dataflow. Each line is in the form of:
        `host:port`, where host can be either host name or ip_addr, port can be any available port.
 
-    3. graph_conf.json
-        - storage
-            - $workdir: The **absolute** directory of the working folder. It is the root directory
+### graph_conf.json
+* storage
+    * $workdir: The **absolute** directory of the working folder. It is the root directory
                        of the data and temporary files. 
-            - $persist_data: the graph dataset's name, which is put under the $workdir, and maintain as $workdir/$persist_data/DATA.
-            - $temp_data: the temporary folder relative to $workdir, by default it is set as "temp".
-        - $is_directed: specify if the graph is directed or not.
-        - $label_type: the label type of graph, choose "Void" (no labels), "Simple" (unsigned int32), or "String". We use "Simple"
+    * $persist_data: the graph dataset's name, which is put under the $workdir, and maintain as $workdir/$persist_data/DATA.
+    * $temp_data: the temporary folder relative to $workdir, by default it is set as "temp".
+* $is_directed: specify if the graph is directed or not.
+* $label_type: the label type of graph, choose "Void" (no labels), "Simple" (unsigned int32), or "String". We use "Simple"
                       by default for labelled pattern matching.
-        - $graph_type: the graph storage type, "StaticGraph" (CSR format) or "GraphMap" (BTreeMap for structures). We use "StaticGraph"
+* $graph_type: the graph storage type, "StaticGraph" (CSR format) or "GraphMap" (BTreeMap for structures). We use "StaticGraph"
                       by default.
-        - $prefix: the prefix of the file of the partitioned graph data.
-        - $tri_prefix: the prefix of the file of the triangle partitioned graph data..
+* $prefix: the prefix of the file of the partitioned graph data.
+* $tri_prefix: the prefix of the file of the triangle partitioned graph data..
          **************************************************************************************
             We normally set $prefix as h[$number_machines]w[$number_workers] for random
             hash partition, and h[$number_machines]w[$number_workers]t for triangle partition.
@@ -59,7 +58,7 @@ The configuration folder is "conf", where there are three files to configure:
             h10w3 and h10w3t, respectively.
          **************************************************************************************
 
-[Data Storage & Preprocessing]
+## Data Storage & Preprocessing
 The storage hierarchy used in the experiment looks like the following.
 
 $workdir
@@ -71,7 +70,7 @@ $workdir
 Note!!: In the experiment, we treat all data graphs as undirected graphs.
 **************************************************************************************
 
-<One-stand preprocessing>
+### One-stand preprocessing
 We offer a tool to preprocess a raw graph file (in csv format) into the formatted graph used in the experiment.
 Consider a graph stored as "dir/to/sample.csv", in which each line is in the form of
 
@@ -109,12 +108,12 @@ specified in "conf/params.ini"
 
 Optional: If it is a labelled graph, there will be some label-related metadata.
 
-<Detailed preprocessing steps>
+### Detailed preprocessing steps
 If you are interested in detailed preprocessing, please read this part. Otherwise, go to [Join Plans].
 
 There are two steps of preprocessing, graph_part and tri_part, introduced as follows. 
 
-<graph_part>
+#### graph_part
 After the preprocessing, we can call hash graph partition utility as:
 `python3 graph_part.py <edge_file> <graph_name> <part_prefix> <sep> <buffer_size> <reorder> <has_headers> [node_file] [label_type]`
 
@@ -125,7 +124,7 @@ For example, if you have 10 machines, and each runs 3 workers, and you specify $
 After <graph_part>, you should see that there are 10 partitions, each named h10w3 in the corresponding folders in each machine,
 that will be jointly accessed by all three workers in that machine.
 
-<tri_part>
+#### tri_part
 CliqueJoin(BinaryJoin using triangle indexing) relies on triangle partition, and <tri_part> does the job via:
 `python3 tri_part.py <graph_name> <in_prefix> <out_prefix>`
 
@@ -135,7 +134,7 @@ set it differently from $prefix. For example, "h10w3t".
 After <tri_part>, you should see that there are 10 partitions, each named h10w3t in the corresponding folders in each machine.
 
 
-[Join Plans]
+## Join Plans
 We offer the BinaryJoin and GenericJoin plans for all queries under `plans/` directory(generated by
 compute_all_plans.py). You can generate all plans by calling:
 
@@ -185,7 +184,7 @@ bin/compute_join_plan q8 query_json/unlabelled/q8.json BinaryJoin plans/BinaryJo
 --batches 128 --compress true --trindex true
 `
 
-[Run the algorithms]
+## Run the algorithms
 After preparing everything above, it is easy to run the algorithms by calling:
 `python3 patmat.py <algorithm> <query_name> <is_labelled> <plan_path> <graph_conf_path> <tri_index[true|false]> <is_compress[true|false]> [batches]`
 
@@ -242,24 +241,37 @@ If you want to run unlabelled query q5 using BinaryJoin algorithm with triangle 
 
 The result of unlabelled q5 in unlabelled sample graph (data/sampleUnlabelled) should be 121809.
 
-[Sample Graph Ground Truth]
+### Sample Graph Ground Truth
 
 Unlabelled Sample Graph Ground Truth with symmetry breaking(we put it under data/sampleUnlabeleld):
- ——————————————————————————————————————————————————————————————————————————————————
+
 |   q1   |   q2   |   q3   |   q4   |   q5   |   q6   |    q7    |   q8   |   q9   |
-|——————————————————————————————————————————————————————————————————————————————————
+
 |  7191  |  3975  |   170  | 121809 |  32679 |  4080  |  1353345 | 252699 | 126805 |
- ——————————————————————————————————————————————————————————————————————————————————
+
 
 Labelled Sample Graph Ground Truth without symmetry breaking(we put it under data/sampleLabelled):
- —————————————————————————————————————————————————————————————————————————————————
+
 |   q1   |   q2   |   q3   |   q4   |    q5    |   q6   |   q7  |   q8   |   q9   |
-|—————————————————————————————————————————————————————————————————————————————————
+
 |  34445 |  40850 |  24632 |  22557 |  1789718 |  1076  |   6   |   16   |  2670  |
- —————————————————————————————————————————————————————————————————————————————————
 
-[Logs]
+
+### Logs
 All logs can be found in logs folder, with "logs/<algorithm>" and "logs/partition" indicate the algorithm running logs and partition logs respectively. 
+    
+## Publications
+* Longbin Lai et al., Distributed Subgraph Matching on Timely Dataflow. To appear in VLDB 2019. 
+* Longbin Lai et al., A Survey and Experimental Analysis of Distributed Subgraph Matching in [arxiv](https://arxiv.org/abs/1906.11518). p.s. A full version of the VLDB submission 
 
-[Issues]
+## Contributors
+* "Longbin Lai <longbin.lai@gmail.com>",
+* "Zhengyi Yang <yangzhengyi188@gmail.com>",
+* "Zhu Qing <skullpirate.qing@gmail.com>",
+* "Xin Jin <xinj.cs@gmail.com>",
+* "Zhengmin Lai <zhengmin.lai@gmail.com>",
+* "Ran Wang <wangranSEI@gmail.com>",
+* "KongZhang Hao <haokongzhang@gmail.com>",
+
+## Issues
 Please send to <longbin.lai@gmail.com> for any further questions.
