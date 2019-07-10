@@ -216,16 +216,17 @@ The result of unlabelled q5 in unlabelled sample graph (data/sampleUnlabelled) s
 Unlabelled Sample Graph Ground Truth with symmetry breaking(we put it under data/sampleUnlabeleld):
 
 |   q1   |   q2   |   q3   |   q4   |   q5   |   q6   |    q7    |   q8   |   q9   |
-
+|--------|--------|--------|--------|--------|--------|----------|--------|--------|
 |  7191  |  3975  |   170  | 121809 |  32679 |  4080  |  1353345 | 252699 | 126805 |
 
 
 Labelled Sample Graph Ground Truth without symmetry breaking(we put it under data/sampleLabelled):
 
 |   q1   |   q2   |   q3   |   q4   |    q5    |   q6   |   q7  |   q8   |   q9   |
-
+|--------|--------|--------|--------|----------|--------|-------|--------|--------|
 |  34445 |  40850 |  24632 |  22557 |  1789718 |  1076  |   6   |   16   |  2670  |
 
+The queries (unlabelled and labelled) are listed according to our VLDB paper.
 
 ### Logs
 All logs can be found in logs folder, with "logs/<algorithm>" and "logs/partition" indicate the algorithm running logs and partition logs respectively. 
