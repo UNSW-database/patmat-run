@@ -114,6 +114,126 @@
         ],
         "nlabel": 3,
         "local_vertex": "Any",
+        "compressed": false
+      },
+      {
+        "extend_indices": [
+          0
+        ],
+        "orders": [],
+        "edge_infos": [
+          [
+            0,
+            null,
+            "None"
+          ]
+        ],
+        "nlabel": 2,
+        "local_vertex": null,
+        "compressed": false
+      },
+      {
+        "extend_indices": [
+          3
+        ],
+        "orders": [],
+        "edge_infos": [
+          [
+            3,
+            null,
+            "None"
+          ]
+        ],
+        "nlabel": 4,
+        "local_vertex": null,
+        "compressed": false
+      },
+      {
+        "extend_indices": [
+          4
+        ],
+        "orders": [],
+        "edge_infos": [
+          [
+            4,
+            null,
+            "None"
+          ]
+        ],
+        "nlabel": 3,
+        "local_vertex": null,
+        "compressed": false
+      },
+      {
+        "extend_indices": [
+          4,
+          5
+        ],
+        "orders": [],
+        "edge_infos": [
+          [
+            4,
+            null,
+            "None"
+          ],
+          [
+            5,
+            null,
+            "None"
+          ]
+        ],
+        "nlabel": 3,
+        "local_vertex": "Any",
+        "compressed": false
+      }
+    ],
+    "first_nlabel": 4,
+    "reorder": [
+      2,
+      0,
+      1,
+      6,
+      5,
+      3,
+      4
+    ],
+    "comp_joins": [
+      {
+        "extend_indices": [
+          0
+        ],
+        "orders": [],
+        "edge_infos": [
+          [
+            0,
+            null,
+            "None"
+          ]
+        ],
+        "nlabel": 3,
+        "local_vertex": null,
+        "compressed": false
+      },
+      {
+        "extend_indices": [
+          0,
+          1
+        ],
+        "orders": [],
+        "edge_infos": [
+          [
+            0,
+            null,
+            "None"
+          ],
+          [
+            1,
+            null,
+            "None"
+          ]
+        ],
+        "nlabel": 3,
+        "local_vertex": "Any",
         "compressed": true
       },
       {
@@ -186,16 +306,6 @@
         "local_vertex": "Any",
         "compressed": true
       }
-    ],
-    "first_nlabel": 4,
-    "reorder": [
-      2,
-      0,
-      1,
-      6,
-      5,
-      3,
-      4
     ],
     "comp_info": {
       "comp_ord": {

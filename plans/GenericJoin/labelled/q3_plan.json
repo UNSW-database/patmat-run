@@ -73,11 +73,51 @@
         ],
         "nlabel": 3,
         "local_vertex": "Any",
-        "compressed": true
+        "compressed": false
       }
     ],
     "first_nlabel": 3,
     "reorder": null,
+    "comp_joins": [
+      {
+        "extend_indices": [
+          0
+        ],
+        "orders": [],
+        "edge_infos": [
+          [
+            0,
+            null,
+            "None"
+          ]
+        ],
+        "nlabel": 3,
+        "local_vertex": null,
+        "compressed": false
+      },
+      {
+        "extend_indices": [
+          0,
+          1
+        ],
+        "orders": [],
+        "edge_infos": [
+          [
+            0,
+            null,
+            "None"
+          ],
+          [
+            1,
+            null,
+            "None"
+          ]
+        ],
+        "nlabel": 3,
+        "local_vertex": "Any",
+        "compressed": true
+      }
+    ],
     "comp_info": {
       "comp_ord": {
         "bigger_than": [

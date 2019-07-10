@@ -71,6 +71,63 @@
         ],
         "nlabel": 10,
         "local_vertex": null,
+        "compressed": false
+      },
+      {
+        "extend_indices": [
+          1
+        ],
+        "orders": [],
+        "edge_infos": [
+          [
+            1,
+            null,
+            "None"
+          ]
+        ],
+        "nlabel": 1,
+        "local_vertex": null,
+        "compressed": false
+      }
+    ],
+    "first_nlabel": 8,
+    "reorder": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "comp_joins": [
+      {
+        "extend_indices": [
+          0
+        ],
+        "orders": [],
+        "edge_infos": [
+          [
+            0,
+            null,
+            "None"
+          ]
+        ],
+        "nlabel": 1,
+        "local_vertex": null,
+        "compressed": false
+      },
+      {
+        "extend_indices": [
+          0
+        ],
+        "orders": [],
+        "edge_infos": [
+          [
+            0,
+            null,
+            "None"
+          ]
+        ],
+        "nlabel": 10,
+        "local_vertex": null,
         "compressed": true
       },
       {
@@ -89,13 +146,6 @@
         "local_vertex": null,
         "compressed": true
       }
-    ],
-    "first_nlabel": 8,
-    "reorder": [
-      1,
-      2,
-      0,
-      3
     ],
     "comp_info": {
       "comp_ord": {

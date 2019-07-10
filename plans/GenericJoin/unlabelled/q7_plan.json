@@ -85,6 +85,85 @@
         ],
         "nlabel": null,
         "local_vertex": null,
+        "compressed": false
+      },
+      {
+        "extend_indices": [
+          1
+        ],
+        "orders": [],
+        "edge_infos": [
+          [
+            1,
+            null,
+            "None"
+          ]
+        ],
+        "nlabel": null,
+        "local_vertex": null,
+        "compressed": false
+      },
+      {
+        "extend_indices": [
+          3
+        ],
+        "orders": [
+          [
+            2,
+            "Bigger"
+          ]
+        ],
+        "edge_infos": [
+          [
+            3,
+            null,
+            "None"
+          ]
+        ],
+        "nlabel": null,
+        "local_vertex": null,
+        "compressed": false
+      }
+    ],
+    "first_nlabel": null,
+    "reorder": [
+      1,
+      2,
+      0,
+      3,
+      4
+    ],
+    "comp_joins": [
+      {
+        "extend_indices": [
+          0
+        ],
+        "orders": [],
+        "edge_infos": [
+          [
+            0,
+            null,
+            "None"
+          ]
+        ],
+        "nlabel": null,
+        "local_vertex": null,
+        "compressed": false
+      },
+      {
+        "extend_indices": [
+          0
+        ],
+        "orders": [],
+        "edge_infos": [
+          [
+            0,
+            null,
+            "None"
+          ]
+        ],
+        "nlabel": null,
+        "local_vertex": null,
         "compressed": true
       },
       {
@@ -119,14 +198,6 @@
         "local_vertex": null,
         "compressed": true
       }
-    ],
-    "first_nlabel": null,
-    "reorder": [
-      1,
-      2,
-      0,
-      3,
-      4
     ],
     "comp_info": {
       "comp_ord": {
