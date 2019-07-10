@@ -1,12 +1,12 @@
 {
-  "storage":{
-    "workdir": "/mnt/c/Users/Karn/Desktop/cluster_run/data",
-    "persist_data": "sampleUnlabelled",
-    "temp_data": "temp"
-  },
-  "is_directed": false,
-  "label_type": "Simple",
-  "graph_type": "StaticGraph",
-  "prefix":"h1w3",
-  "tri_prefix":"h1w3t"
+    "storage": {
+        "workdir": "/you/dir/to/workdir",
+        "persist_data": "sampleUnlabelled",
+        "temp_data": "temp"
+    },
+    "is_directed": false,
+    "label_type": "Simple",
+    "graph_type": "StaticGraph",
+    "prefix": "h1w3",
+    "tri_prefix": "h1w3t"
 }
