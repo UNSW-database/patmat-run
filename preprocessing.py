@@ -44,7 +44,7 @@ if __name__ == '__main__':
 
     # Graph hash partition
     command = "python3 graph_part.py %s %s %s %s %s true %s" % (
-            edge_file, graph, part_prefix, splitter, buffer, has_headers)
+        edge_file, graph, part_prefix, splitter, buffer, has_headers)
 
     if len(sys.argv) >= 7:
         command = "python3 graph_part.py %s %s %s %s %s true %s %s" % (
@@ -60,7 +60,7 @@ if __name__ == '__main__':
 
     # Triangle partition
     command = "python3 tri_part.py %s %s %s" % (graph, part_prefix,
-                                                     tpart_prefix)
+                                                tpart_prefix)
 
     print(command)
     os.system(command)

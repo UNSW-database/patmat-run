@@ -39,12 +39,13 @@ if __name__ == "__main__":
 
         prefix = 'q'
         queries = range(1, 10)
-        
+
         for i in queries:
             query = prefix + str(i)
             try:
                 command = "%s %s %s/%s.json %s %s %s_%s --symmetry_break %s --batches %d --compress %s --trindex %s" % (
-                    plan_bin, query, query_dir, query, alg, plan_dir, query, plan_suffix, is_symm_break, int(batches),
+                    plan_bin, query, query_dir, query, alg, plan_dir, query, plan_suffix, is_symm_break, int(
+                        batches),
                     is_compress,
                     is_tri_indexing)
                 print(command)
