@@ -1,0 +1,14 @@
+{
+    "is_directed": false,
+    "is_labelled": true,
+    "vertices": [
+        [0, 3],
+        [1, 10],
+        [2, 9]
+    ],
+    "edges": [
+        [0, 1, null],
+        [1, 2, null]
+    ],
+    "partial_order": null
+}

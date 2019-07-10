@@ -1,0 +1,410 @@
+2019-07-09 17:44:00,367 [36mINFO [0m [patmat] Loading "/mnt/c/Users/Karn/Desktop/cluster_run/data/sampleUnlabelled/DATA/h1w3t"
+2019-07-09 17:44:00,427 [35mDEBUG[0m [patmat_bench::join::binary_join] JoinInfo { key_size: 1, key_pos: [2], left_val_pos: [1], right_val_pos: [0], left_extra_pos: None, right_extra_pos: Some([0]) }
+2019-07-09 17:44:00,427 [35mDEBUG[0m [patmat_bench::join::binary_join] partial order index in value: Some(((0, 0), Greater))
+2019-07-09 17:44:00,427 [35mDEBUG[0m [patmat_bench::join::binary_join] JoinInfo { key_size: 1, key_pos: [2], left_val_pos: [1], right_val_pos: [0], left_extra_pos: None, right_extra_pos: Some([0]) }
+2019-07-09 17:44:00,427 [35mDEBUG[0m [patmat_bench::join::binary_join] partial order index in value: Some(((0, 0), Greater))
+2019-07-09 17:44:00,428 [35mDEBUG[0m [patmat_bench::join::binary_join] JoinInfo { key_size: 1, key_pos: [2], left_val_pos: [1], right_val_pos: [0], left_extra_pos: None, right_extra_pos: Some([0]) }
+2019-07-09 17:44:00,428 [35mDEBUG[0m [patmat_bench::join::binary_join] partial order index in value: Some(((0, 0), Greater))
+2019-07-09 17:44:00,429 [35mDEBUG[0m [patmat_bench::join::binary_join] JoinInfo { key_size: 1, key_pos: [1], left_val_pos: [0], right_val_pos: [2], left_extra_pos: None, right_extra_pos: Some([0]) }
+2019-07-09 17:44:00,429 [35mDEBUG[0m [patmat_bench::join::binary_join] partial order index in value: Some(((0, 0), Less))
+2019-07-09 17:44:00,429 [35mDEBUG[0m [patmat_bench::join::binary_join] JoinInfo { key_size: 1, key_pos: [1], left_val_pos: [0], right_val_pos: [2], left_extra_pos: None, right_extra_pos: Some([0]) }
+2019-07-09 17:44:00,429 [35mDEBUG[0m [patmat_bench::join::binary_join] partial order index in value: Some(((0, 0), Less))
+2019-07-09 17:44:00,430 [35mDEBUG[0m [patmat_bench::join::binary_join] JoinInfo { key_size: 1, key_pos: [1], left_val_pos: [0], right_val_pos: [2], left_extra_pos: None, right_extra_pos: Some([0]) }
+2019-07-09 17:44:00,430 [35mDEBUG[0m [patmat_bench::join::binary_join] partial order index in value: Some(((0, 0), Less))
+2019-07-09 17:44:00,431 [35mDEBUG[0m [patmat_bench::join::binary_join] JoinInfo { key_size: 2, key_pos: [0, 2], left_val_pos: [3], right_val_pos: [1], left_extra_pos: Some([0]), right_extra_pos: Some([1]) }
+2019-07-09 17:44:00,431 [35mDEBUG[0m [patmat_bench::join::binary_join] partial order index in value: None
+2019-07-09 17:44:00,431 [35mDEBUG[0m [patmat_bench::join::binary_join] JoinInfo { key_size: 2, key_pos: [0, 2], left_val_pos: [3], right_val_pos: [1], left_extra_pos: Some([0]), right_extra_pos: Some([1]) }
+2019-07-09 17:44:00,431 [35mDEBUG[0m [patmat_bench::join::binary_join] partial order index in value: None
+2019-07-09 17:44:00,432 [35mDEBUG[0m [patmat_bench::join::binary_join] JoinInfo { key_size: 2, key_pos: [0, 2], left_val_pos: [3], right_val_pos: [1], left_extra_pos: Some([0]), right_extra_pos: Some([1]) }
+2019-07-09 17:44:00,432 [35mDEBUG[0m [patmat_bench::join::binary_join] partial order index in value: None
+2019-07-09 17:44:00,466 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 0), worker 2 processes q8-0, # results: 0
+2019-07-09 17:44:00,466 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 0), worker 2 processes q8-1, # results: 0
+2019-07-09 17:44:00,466 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 1), worker 0 processes q8-0, # results: 0
+2019-07-09 17:44:00,467 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 1), worker 0 processes q8-1, # results: 0
+2019-07-09 17:44:00,467 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 2), worker 0 processes q8-0, # results: 0
+2019-07-09 17:44:00,467 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 2), worker 0 processes q8-1, # results: 0
+2019-07-09 17:44:00,467 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 3), worker 0 processes q8-0, # results: 12
+2019-07-09 17:44:00,468 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 4), worker 2 processes q8-0, # results: 12
+2019-07-09 17:44:00,468 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 3), worker 0 processes q8-1, # results: 12
+2019-07-09 17:44:00,468 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 5), worker 0 processes q8-0, # results: 0
+2019-07-09 17:44:00,468 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 4), worker 2 processes q8-1, # results: 12
+2019-07-09 17:44:00,468 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 6), worker 2 processes q8-0, # results: 23
+2019-07-09 17:44:00,468 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 5), worker 0 processes q8-1, # results: 0
+2019-07-09 17:44:00,469 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 6), worker 2 processes q8-1, # results: 23
+2019-07-09 17:44:00,469 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 7), worker 0 processes q8-0, # results: 23
+2019-07-09 17:44:00,469 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 7), worker 0 processes q8-1, # results: 23
+2019-07-09 17:44:00,469 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 8), worker 2 processes q8-0, # results: 12
+2019-07-09 17:44:00,469 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 9), worker 1 processes q8-0, # results: 0
+2019-07-09 17:44:00,469 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 8), worker 2 processes q8-1, # results: 12
+2019-07-09 17:44:00,469 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 10), worker 2 processes q8-0, # results: 0
+2019-07-09 17:44:00,469 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 9), worker 1 processes q8-1, # results: 0
+2019-07-09 17:44:00,469 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 11), worker 2 processes q8-0, # results: 13
+2019-07-09 17:44:00,469 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 10), worker 2 processes q8-1, # results: 0
+2019-07-09 17:44:00,470 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 12), worker 2 processes q8-0, # results: 14
+2019-07-09 17:44:00,470 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 11), worker 2 processes q8-1, # results: 13
+2019-07-09 17:44:00,470 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 13), worker 1 processes q8-0, # results: 60
+2019-07-09 17:44:00,470 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 12), worker 2 processes q8-1, # results: 14
+2019-07-09 17:44:00,470 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 14), worker 1 processes q8-0, # results: 60
+2019-07-09 17:44:00,470 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 13), worker 1 processes q8-1, # results: 60
+2019-07-09 17:44:00,471 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 15), worker 2 processes q8-0, # results: 69
+2019-07-09 17:44:00,471 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 14), worker 1 processes q8-1, # results: 55
+2019-07-09 17:44:00,471 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 16), worker 0 processes q8-0, # results: 39
+2019-07-09 17:44:00,471 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 15), worker 2 processes q8-1, # results: 69
+2019-07-09 17:44:00,471 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 17), worker 1 processes q8-0, # results: 27
+2019-07-09 17:44:00,471 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 16), worker 0 processes q8-1, # results: 39
+2019-07-09 17:44:00,471 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 18), worker 2 processes q8-0, # results: 39
+2019-07-09 17:44:00,471 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 17), worker 1 processes q8-1, # results: 27
+2019-07-09 17:44:00,472 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 19), worker 2 processes q8-0, # results: 77
+2019-07-09 17:44:00,472 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 18), worker 2 processes q8-1, # results: 39
+2019-07-09 17:44:00,472 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 20), worker 1 processes q8-0, # results: 69
+2019-07-09 17:44:00,472 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 19), worker 2 processes q8-1, # results: 77
+2019-07-09 17:44:00,472 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 21), worker 2 processes q8-0, # results: 60
+2019-07-09 17:44:00,472 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 20), worker 1 processes q8-1, # results: 69
+2019-07-09 17:44:00,472 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 22), worker 2 processes q8-0, # results: 84
+2019-07-09 17:44:00,473 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 21), worker 2 processes q8-1, # results: 60
+2019-07-09 17:44:00,473 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 23), worker 0 processes q8-0, # results: 92
+2019-07-09 17:44:00,473 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 22), worker 2 processes q8-1, # results: 84
+2019-07-09 17:44:00,473 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 24), worker 2 processes q8-0, # results: 75
+2019-07-09 17:44:00,473 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 23), worker 0 processes q8-1, # results: 92
+2019-07-09 17:44:00,474 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 25), worker 0 processes q8-0, # results: 75
+2019-07-09 17:44:00,474 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 24), worker 2 processes q8-1, # results: 75
+2019-07-09 17:44:00,474 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 26), worker 2 processes q8-0, # results: 71
+2019-07-09 17:44:00,474 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 25), worker 0 processes q8-1, # results: 75
+2019-07-09 17:44:00,474 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 27), worker 0 processes q8-0, # results: 75
+2019-07-09 17:44:00,474 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 26), worker 2 processes q8-1, # results: 82
+2019-07-09 17:44:00,474 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 28), worker 0 processes q8-0, # results: 115
+2019-07-09 17:44:00,475 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 27), worker 0 processes q8-1, # results: 75
+2019-07-09 17:44:00,475 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 29), worker 0 processes q8-0, # results: 100
+2019-07-09 17:44:00,475 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 28), worker 0 processes q8-1, # results: 115
+2019-07-09 17:44:00,475 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 30), worker 1 processes q8-0, # results: 115
+2019-07-09 17:44:00,475 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 29), worker 0 processes q8-1, # results: 100
+2019-07-09 17:44:00,476 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 31), worker 1 processes q8-0, # results: 126
+2019-07-09 17:44:00,476 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 30), worker 1 processes q8-1, # results: 115
+2019-07-09 17:44:00,476 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 32), worker 0 processes q8-0, # results: 121
+2019-07-09 17:44:00,476 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 31), worker 1 processes q8-1, # results: 126
+2019-07-09 17:44:00,476 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 33), worker 1 processes q8-0, # results: 126
+2019-07-09 17:44:00,476 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 32), worker 0 processes q8-1, # results: 121
+2019-07-09 17:44:00,477 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 34), worker 2 processes q8-0, # results: 133
+2019-07-09 17:44:00,477 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 33), worker 1 processes q8-1, # results: 126
+2019-07-09 17:44:00,477 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 35), worker 1 processes q8-0, # results: 133
+2019-07-09 17:44:00,477 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 34), worker 2 processes q8-1, # results: 133
+2019-07-09 17:44:00,477 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 36), worker 1 processes q8-0, # results: 121
+2019-07-09 17:44:00,478 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 35), worker 1 processes q8-1, # results: 133
+2019-07-09 17:44:00,478 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 37), worker 2 processes q8-0, # results: 126
+2019-07-09 17:44:00,478 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 36), worker 1 processes q8-1, # results: 121
+2019-07-09 17:44:00,478 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 38), worker 0 processes q8-0, # results: 143
+2019-07-09 17:44:00,479 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 37), worker 2 processes q8-1, # results: 126
+2019-07-09 17:44:00,479 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 39), worker 2 processes q8-0, # results: 143
+2019-07-09 17:44:00,479 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 38), worker 0 processes q8-1, # results: 143
+2019-07-09 17:44:00,479 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 40), worker 1 processes q8-0, # results: 143
+2019-07-09 17:44:00,479 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 39), worker 2 processes q8-1, # results: 143
+2019-07-09 17:44:00,480 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 41), worker 0 processes q8-0, # results: 147
+2019-07-09 17:44:00,480 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 40), worker 1 processes q8-1, # results: 143
+2019-07-09 17:44:00,480 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 42), worker 2 processes q8-0, # results: 147
+2019-07-09 17:44:00,480 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 41), worker 0 processes q8-1, # results: 147
+2019-07-09 17:44:00,480 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 43), worker 2 processes q8-0, # results: 150
+2019-07-09 17:44:00,480 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 42), worker 2 processes q8-1, # results: 147
+2019-07-09 17:44:00,480 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 44), worker 0 processes q8-0, # results: 168
+2019-07-09 17:44:00,480 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 43), worker 2 processes q8-1, # results: 150
+2019-07-09 17:44:00,481 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 45), worker 0 processes q8-0, # results: 170
+2019-07-09 17:44:00,481 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 44), worker 0 processes q8-1, # results: 168
+2019-07-09 17:44:00,481 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 46), worker 2 processes q8-0, # results: 190
+2019-07-09 17:44:00,481 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 45), worker 0 processes q8-1, # results: 170
+2019-07-09 17:44:00,481 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 47), worker 2 processes q8-0, # results: 209
+2019-07-09 17:44:00,481 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 46), worker 2 processes q8-1, # results: 190
+2019-07-09 17:44:00,482 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 48), worker 2 processes q8-0, # results: 210
+2019-07-09 17:44:00,482 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 47), worker 2 processes q8-1, # results: 209
+2019-07-09 17:44:00,482 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 49), worker 2 processes q8-0, # results: 210
+2019-07-09 17:44:00,482 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 48), worker 2 processes q8-1, # results: 210
+2019-07-09 17:44:00,492 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 49), worker 2 processes q8-1, # results: 210
+2019-07-09 17:44:00,502 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 1), worker 1 processes q8-2, # results: 63
+2019-07-09 17:44:00,502 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 2), worker 0 processes q8-2, # results: 22
+2019-07-09 17:44:00,502 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 3), worker 2 processes q8-2, # results: 270
+2019-07-09 17:44:00,503 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 4), worker 1 processes q8-2, # results: 189
+2019-07-09 17:44:00,503 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 5), worker 0 processes q8-2, # results: 91
+2019-07-09 17:44:00,503 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 5), worker 1 processes q8-2, # results: 126
+2019-07-09 17:44:00,503 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 6), worker 0 processes q8-2, # results: 146
+2019-07-09 17:44:00,503 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 6), worker 1 processes q8-2, # results: 54
+2019-07-09 17:44:00,503 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 7), worker 0 processes q8-2, # results: 0
+2019-07-09 17:44:00,503 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 7), worker 1 processes q8-2, # results: 88
+2019-07-09 17:44:00,503 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 7), worker 2 processes q8-2, # results: 131
+2019-07-09 17:44:00,504 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 8), worker 2 processes q8-2, # results: 92
+2019-07-09 17:44:00,504 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 8), worker 0 processes q8-2, # results: 84
+2019-07-09 17:44:00,504 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 8), worker 1 processes q8-2, # results: 156
+2019-07-09 17:44:00,504 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 9), worker 0 processes q8-2, # results: 0
+2019-07-09 17:44:00,504 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 9), worker 1 processes q8-2, # results: 349
+2019-07-09 17:44:00,504 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 10), worker 0 processes q8-2, # results: 215
+2019-07-09 17:44:00,504 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 10), worker 1 processes q8-2, # results: 345
+2019-07-09 17:44:00,504 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 11), worker 1 processes q8-2, # results: 210
+2019-07-09 17:44:00,504 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 11), worker 0 processes q8-2, # results: 537
+2019-07-09 17:44:00,504 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 11), worker 2 processes q8-2, # results: 466
+2019-07-09 17:44:00,505 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 12), worker 0 processes q8-2, # results: 220
+2019-07-09 17:44:00,505 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 12), worker 1 processes q8-2, # results: 163
+2019-07-09 17:44:00,505 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 12), worker 2 processes q8-2, # results: 212
+2019-07-09 17:44:00,505 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 13), worker 1 processes q8-2, # results: 152
+2019-07-09 17:44:00,505 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 13), worker 2 processes q8-2, # results: 78
+2019-07-09 17:44:00,505 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 13), worker 0 processes q8-2, # results: 574
+2019-07-09 17:44:00,505 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 14), worker 2 processes q8-2, # results: 259
+2019-07-09 17:44:00,505 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 14), worker 0 processes q8-2, # results: 368
+2019-07-09 17:44:00,505 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 14), worker 1 processes q8-2, # results: 361
+2019-07-09 17:44:00,506 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 15), worker 2 processes q8-2, # results: 472
+2019-07-09 17:44:00,506 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 15), worker 1 processes q8-2, # results: 1132
+2019-07-09 17:44:00,506 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 16), worker 0 processes q8-2, # results: 219
+2019-07-09 17:44:00,506 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 16), worker 2 processes q8-2, # results: 509
+2019-07-09 17:44:00,506 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 16), worker 1 processes q8-2, # results: 451
+2019-07-09 17:44:00,506 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 17), worker 0 processes q8-2, # results: 762
+2019-07-09 17:44:00,506 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 17), worker 1 processes q8-2, # results: 956
+2019-07-09 17:44:00,506 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 18), worker 0 processes q8-2, # results: 112
+2019-07-09 17:44:00,506 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 18), worker 2 processes q8-2, # results: 62
+2019-07-09 17:44:00,506 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 18), worker 1 processes q8-2, # results: 659
+2019-07-09 17:44:00,506 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 19), worker 0 processes q8-2, # results: 49
+2019-07-09 17:44:00,507 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 19), worker 1 processes q8-2, # results: 679
+2019-07-09 17:44:00,507 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 19), worker 2 processes q8-2, # results: 810
+2019-07-09 17:44:00,507 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 20), worker 1 processes q8-2, # results: 209
+2019-07-09 17:44:00,507 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 20), worker 2 processes q8-2, # results: 412
+2019-07-09 17:44:00,507 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 20), worker 0 processes q8-2, # results: 939
+2019-07-09 17:44:00,507 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 21), worker 2 processes q8-2, # results: 226
+2019-07-09 17:44:00,507 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 21), worker 0 processes q8-2, # results: 602
+2019-07-09 17:44:00,507 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 21), worker 1 processes q8-2, # results: 1162
+2019-07-09 17:44:00,507 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 22), worker 2 processes q8-2, # results: 91
+2019-07-09 17:44:00,507 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 22), worker 0 processes q8-2, # results: 366
+2019-07-09 17:44:00,507 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 22), worker 1 processes q8-2, # results: 803
+2019-07-09 17:44:00,507 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 23), worker 2 processes q8-2, # results: 143
+2019-07-09 17:44:00,508 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 23), worker 1 processes q8-2, # results: 745
+2019-07-09 17:44:00,508 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 23), worker 0 processes q8-2, # results: 1746
+2019-07-09 17:44:00,508 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 24), worker 1 processes q8-2, # results: 531
+2019-07-09 17:44:00,508 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 24), worker 0 processes q8-2, # results: 730
+2019-07-09 17:44:00,508 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 24), worker 2 processes q8-2, # results: 501
+2019-07-09 17:44:00,508 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 25), worker 2 processes q8-2, # results: 664
+2019-07-09 17:44:00,508 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 25), worker 0 processes q8-2, # results: 566
+2019-07-09 17:44:00,508 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 25), worker 1 processes q8-2, # results: 733
+2019-07-09 17:44:00,508 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 26), worker 2 processes q8-2, # results: 353
+2019-07-09 17:44:00,508 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 26), worker 0 processes q8-2, # results: 492
+2019-07-09 17:44:00,508 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 26), worker 1 processes q8-2, # results: 1626
+2019-07-09 17:44:00,509 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 27), worker 2 processes q8-2, # results: 296
+2019-07-09 17:44:00,509 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 27), worker 1 processes q8-2, # results: 823
+2019-07-09 17:44:00,509 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 27), worker 0 processes q8-2, # results: 1502
+2019-07-09 17:44:00,509 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 28), worker 2 processes q8-2, # results: 136
+2019-07-09 17:44:00,509 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 28), worker 1 processes q8-2, # results: 696
+2019-07-09 17:44:00,509 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 28), worker 0 processes q8-2, # results: 1109
+2019-07-09 17:44:00,509 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 29), worker 2 processes q8-2, # results: 908
+2019-07-09 17:44:00,509 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 29), worker 1 processes q8-2, # results: 602
+2019-07-09 17:44:00,509 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 29), worker 0 processes q8-2, # results: 1701
+2019-07-09 17:44:00,510 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 30), worker 2 processes q8-2, # results: 620
+2019-07-09 17:44:00,510 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 30), worker 0 processes q8-2, # results: 1075
+2019-07-09 17:44:00,510 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 30), worker 1 processes q8-2, # results: 2319
+2019-07-09 17:44:00,510 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 31), worker 2 processes q8-2, # results: 459
+2019-07-09 17:44:00,510 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 31), worker 1 processes q8-2, # results: 647
+2019-07-09 17:44:00,510 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 31), worker 0 processes q8-2, # results: 1376
+2019-07-09 17:44:00,510 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 32), worker 1 processes q8-2, # results: 578
+2019-07-09 17:44:00,510 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 32), worker 0 processes q8-2, # results: 870
+2019-07-09 17:44:00,510 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 32), worker 2 processes q8-2, # results: 1240
+2019-07-09 17:44:00,511 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 33), worker 1 processes q8-2, # results: 1214
+2019-07-09 17:44:00,511 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 33), worker 2 processes q8-2, # results: 1512
+2019-07-09 17:44:00,511 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 33), worker 0 processes q8-2, # results: 1399
+2019-07-09 17:44:00,511 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 34), worker 2 processes q8-2, # results: 1072
+2019-07-09 17:44:00,511 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 34), worker 1 processes q8-2, # results: 1234
+2019-07-09 17:44:00,511 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 34), worker 0 processes q8-2, # results: 1241
+2019-07-09 17:44:00,511 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 35), worker 1 processes q8-2, # results: 311
+2019-07-09 17:44:00,511 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 35), worker 2 processes q8-2, # results: 791
+2019-07-09 17:44:00,511 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 35), worker 0 processes q8-2, # results: 1019
+2019-07-09 17:44:00,511 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 36), worker 2 processes q8-2, # results: 1055
+2019-07-09 17:44:00,512 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 36), worker 1 processes q8-2, # results: 2122
+2019-07-09 17:44:00,512 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 36), worker 0 processes q8-2, # results: 2244
+2019-07-09 17:44:00,512 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 37), worker 0 processes q8-2, # results: 789
+2019-07-09 17:44:00,512 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 37), worker 1 processes q8-2, # results: 1110
+2019-07-09 17:44:00,512 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 37), worker 2 processes q8-2, # results: 1747
+2019-07-09 17:44:00,512 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 38), worker 2 processes q8-2, # results: 940
+2019-07-09 17:44:00,512 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 38), worker 1 processes q8-2, # results: 1097
+2019-07-09 17:44:00,512 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 38), worker 0 processes q8-2, # results: 2161
+2019-07-09 17:44:00,512 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 39), worker 1 processes q8-2, # results: 932
+2019-07-09 17:44:00,513 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 39), worker 2 processes q8-2, # results: 1082
+2019-07-09 17:44:00,513 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 39), worker 0 processes q8-2, # results: 1576
+2019-07-09 17:44:00,513 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 40), worker 1 processes q8-2, # results: 497
+2019-07-09 17:44:00,513 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 40), worker 0 processes q8-2, # results: 1678
+2019-07-09 17:44:00,513 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 40), worker 2 processes q8-2, # results: 3506
+2019-07-09 17:44:00,513 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 41), worker 1 processes q8-2, # results: 663
+2019-07-09 17:44:00,513 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 41), worker 0 processes q8-2, # results: 770
+2019-07-09 17:44:00,513 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 41), worker 2 processes q8-2, # results: 2006
+2019-07-09 17:44:00,513 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 42), worker 2 processes q8-2, # results: 789
+2019-07-09 17:44:00,513 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 42), worker 0 processes q8-2, # results: 1291
+2019-07-09 17:44:00,514 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 42), worker 1 processes q8-2, # results: 2785
+2019-07-09 17:44:00,514 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 43), worker 1 processes q8-2, # results: 951
+2019-07-09 17:44:00,514 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 43), worker 2 processes q8-2, # results: 2316
+2019-07-09 17:44:00,514 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 43), worker 0 processes q8-2, # results: 2067
+2019-07-09 17:44:00,514 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 44), worker 0 processes q8-2, # results: 1049
+2019-07-09 17:44:00,514 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 44), worker 2 processes q8-2, # results: 1575
+2019-07-09 17:44:00,514 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 44), worker 1 processes q8-2, # results: 1426
+2019-07-09 17:44:00,514 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 45), worker 1 processes q8-2, # results: 1932
+2019-07-09 17:44:00,514 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 45), worker 2 processes q8-2, # results: 1521
+2019-07-09 17:44:00,514 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 45), worker 0 processes q8-2, # results: 1974
+2019-07-09 17:44:00,515 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 46), worker 2 processes q8-2, # results: 1503
+2019-07-09 17:44:00,515 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 46), worker 1 processes q8-2, # results: 1974
+2019-07-09 17:44:00,515 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 46), worker 0 processes q8-2, # results: 2381
+2019-07-09 17:44:00,515 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 47), worker 2 processes q8-2, # results: 788
+2019-07-09 17:44:00,515 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 47), worker 1 processes q8-2, # results: 1573
+2019-07-09 17:44:00,515 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 47), worker 0 processes q8-2, # results: 2560
+2019-07-09 17:44:00,515 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 48), worker 1 processes q8-2, # results: 983
+2019-07-09 17:44:00,515 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 48), worker 0 processes q8-2, # results: 1202
+2019-07-09 17:44:00,515 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 48), worker 2 processes q8-2, # results: 4294
+2019-07-09 17:44:00,516 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 49), worker 2 processes q8-2, # results: 1494
+2019-07-09 17:44:00,516 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 49), worker 0 processes q8-2, # results: 1280
+2019-07-09 17:44:00,516 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 49), worker 1 processes q8-2, # results: 2751
+2019-07-09 17:44:00,516 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 50), worker 0 processes q8-2, # results: 1600
+2019-07-09 17:44:00,516 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 50), worker 2 processes q8-2, # results: 2672
+2019-07-09 17:44:00,516 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 50), worker 1 processes q8-2, # results: 3769
+2019-07-09 17:44:00,516 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 51), worker 0 processes q8-2, # results: 1538
+2019-07-09 17:44:00,516 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 51), worker 1 processes q8-2, # results: 2107
+2019-07-09 17:44:00,516 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 51), worker 2 processes q8-2, # results: 3270
+2019-07-09 17:44:00,517 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 52), worker 2 processes q8-2, # results: 270
+2019-07-09 17:44:00,517 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 52), worker 1 processes q8-2, # results: 2722
+2019-07-09 17:44:00,517 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 52), worker 0 processes q8-2, # results: 2100
+2019-07-09 17:44:00,517 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 53), worker 0 processes q8-2, # results: 1883
+2019-07-09 17:44:00,517 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 53), worker 1 processes q8-2, # results: 2163
+2019-07-09 17:44:00,517 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 53), worker 2 processes q8-2, # results: 2433
+2019-07-09 17:44:00,517 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 54), worker 0 processes q8-2, # results: 221
+2019-07-09 17:44:00,517 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 54), worker 2 processes q8-2, # results: 1902
+2019-07-09 17:44:00,517 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 54), worker 1 processes q8-2, # results: 3019
+2019-07-09 17:44:00,518 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 55), worker 0 processes q8-2, # results: 1698
+2019-07-09 17:44:00,518 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 55), worker 1 processes q8-2, # results: 1927
+2019-07-09 17:44:00,518 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 55), worker 2 processes q8-2, # results: 3084
+2019-07-09 17:44:00,518 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 56), worker 2 processes q8-2, # results: 581
+2019-07-09 17:44:00,518 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 56), worker 1 processes q8-2, # results: 2885
+2019-07-09 17:44:00,518 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 56), worker 0 processes q8-2, # results: 2859
+2019-07-09 17:44:00,518 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 57), worker 2 processes q8-2, # results: 2053
+2019-07-09 17:44:00,518 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 57), worker 0 processes q8-2, # results: 2313
+2019-07-09 17:44:00,518 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 57), worker 1 processes q8-2, # results: 2531
+2019-07-09 17:44:00,519 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 58), worker 2 processes q8-2, # results: 304
+2019-07-09 17:44:00,519 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 58), worker 1 processes q8-2, # results: 1111
+2019-07-09 17:44:00,519 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 58), worker 0 processes q8-2, # results: 3673
+2019-07-09 17:44:00,519 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 59), worker 1 processes q8-2, # results: 1084
+2019-07-09 17:44:00,519 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 59), worker 2 processes q8-2, # results: 1444
+2019-07-09 17:44:00,519 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 59), worker 0 processes q8-2, # results: 3002
+2019-07-09 17:44:00,519 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 60), worker 0 processes q8-2, # results: 655
+2019-07-09 17:44:00,519 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 60), worker 1 processes q8-2, # results: 1226
+2019-07-09 17:44:00,519 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 60), worker 2 processes q8-2, # results: 1704
+2019-07-09 17:44:00,520 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 61), worker 1 processes q8-2, # results: 599
+2019-07-09 17:44:00,520 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 61), worker 2 processes q8-2, # results: 1047
+2019-07-09 17:44:00,520 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 61), worker 0 processes q8-2, # results: 1486
+2019-07-09 17:44:00,520 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 62), worker 2 processes q8-2, # results: 739
+2019-07-09 17:44:00,520 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 62), worker 1 processes q8-2, # results: 996
+2019-07-09 17:44:00,520 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 62), worker 0 processes q8-2, # results: 1775
+2019-07-09 17:44:00,520 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 63), worker 2 processes q8-2, # results: 414
+2019-07-09 17:44:00,520 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 63), worker 0 processes q8-2, # results: 2283
+2019-07-09 17:44:00,520 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 63), worker 1 processes q8-2, # results: 2322
+2019-07-09 17:44:00,521 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 64), worker 2 processes q8-2, # results: 1384
+2019-07-09 17:44:00,521 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 64), worker 0 processes q8-2, # results: 1524
+2019-07-09 17:44:00,521 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 64), worker 1 processes q8-2, # results: 1478
+2019-07-09 17:44:00,521 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 65), worker 0 processes q8-2, # results: 226
+2019-07-09 17:44:00,521 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 65), worker 1 processes q8-2, # results: 1119
+2019-07-09 17:44:00,521 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 65), worker 2 processes q8-2, # results: 4550
+2019-07-09 17:44:00,521 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 66), worker 1 processes q8-2, # results: 631
+2019-07-09 17:44:00,521 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 66), worker 2 processes q8-2, # results: 1063
+2019-07-09 17:44:00,521 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 66), worker 0 processes q8-2, # results: 2104
+2019-07-09 17:44:00,522 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 67), worker 1 processes q8-2, # results: 1537
+2019-07-09 17:44:00,522 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 67), worker 2 processes q8-2, # results: 1399
+2019-07-09 17:44:00,522 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 67), worker 0 processes q8-2, # results: 1736
+2019-07-09 17:44:00,522 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 68), worker 1 processes q8-2, # results: 130
+2019-07-09 17:44:00,522 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 68), worker 0 processes q8-2, # results: 877
+2019-07-09 17:44:00,522 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 68), worker 2 processes q8-2, # results: 3127
+2019-07-09 17:44:00,522 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 69), worker 1 processes q8-2, # results: 813
+2019-07-09 17:44:00,522 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 69), worker 0 processes q8-2, # results: 792
+2019-07-09 17:44:00,522 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 69), worker 2 processes q8-2, # results: 1438
+2019-07-09 17:44:00,522 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 70), worker 0 processes q8-2, # results: 1073
+2019-07-09 17:44:00,522 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 70), worker 2 processes q8-2, # results: 1285
+2019-07-09 17:44:00,522 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 70), worker 1 processes q8-2, # results: 842
+2019-07-09 17:44:00,523 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 71), worker 1 processes q8-2, # results: 742
+2019-07-09 17:44:00,523 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 71), worker 2 processes q8-2, # results: 1274
+2019-07-09 17:44:00,523 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 71), worker 0 processes q8-2, # results: 1597
+2019-07-09 17:44:00,523 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 72), worker 0 processes q8-2, # results: 894
+2019-07-09 17:44:00,523 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 72), worker 2 processes q8-2, # results: 570
+2019-07-09 17:44:00,523 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 72), worker 1 processes q8-2, # results: 1346
+2019-07-09 17:44:00,523 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 73), worker 1 processes q8-2, # results: 55
+2019-07-09 17:44:00,523 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 73), worker 0 processes q8-2, # results: 977
+2019-07-09 17:44:00,523 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 73), worker 2 processes q8-2, # results: 1561
+2019-07-09 17:44:00,523 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 74), worker 1 processes q8-2, # results: 586
+2019-07-09 17:44:00,523 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 74), worker 2 processes q8-2, # results: 353
+2019-07-09 17:44:00,523 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 74), worker 0 processes q8-2, # results: 1270
+2019-07-09 17:44:00,523 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 75), worker 2 processes q8-2, # results: 55
+2019-07-09 17:44:00,523 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 75), worker 0 processes q8-2, # results: 1095
+2019-07-09 17:44:00,524 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 75), worker 1 processes q8-2, # results: 1009
+2019-07-09 17:44:00,524 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 76), worker 1 processes q8-2, # results: 403
+2019-07-09 17:44:00,524 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 76), worker 2 processes q8-2, # results: 602
+2019-07-09 17:44:00,524 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 76), worker 0 processes q8-2, # results: 837
+2019-07-09 17:44:00,524 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 77), worker 1 processes q8-2, # results: 176
+2019-07-09 17:44:00,524 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 77), worker 0 processes q8-2, # results: 393
+2019-07-09 17:44:00,524 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 77), worker 2 processes q8-2, # results: 136
+2019-07-09 17:44:00,524 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 78), worker 0 processes q8-2, # results: 48
+2019-07-09 17:44:00,524 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 78), worker 1 processes q8-2, # results: 522
+2019-07-09 17:44:00,524 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 78), worker 2 processes q8-2, # results: 225
+2019-07-09 17:44:00,524 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 79), worker 0 processes q8-2, # results: 122
+2019-07-09 17:44:00,524 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 79), worker 1 processes q8-2, # results: 446
+2019-07-09 17:44:00,524 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 79), worker 2 processes q8-2, # results: 168
+2019-07-09 17:44:00,524 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 80), worker 0 processes q8-2, # results: 68
+2019-07-09 17:44:00,524 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 80), worker 1 processes q8-2, # results: 316
+2019-07-09 17:44:00,524 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 80), worker 2 processes q8-2, # results: 312
+2019-07-09 17:44:00,525 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 81), worker 2 processes q8-2, # results: 128
+2019-07-09 17:44:00,525 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 81), worker 0 processes q8-2, # results: 563
+2019-07-09 17:44:00,525 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 81), worker 1 processes q8-2, # results: 426
+2019-07-09 17:44:00,525 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 82), worker 0 processes q8-2, # results: 90
+2019-07-09 17:44:00,525 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 82), worker 1 processes q8-2, # results: 183
+2019-07-09 17:44:00,525 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 82), worker 2 processes q8-2, # results: 273
+2019-07-09 17:44:00,525 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 83), worker 1 processes q8-2, # results: 34
+2019-07-09 17:44:00,525 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 83), worker 0 processes q8-2, # results: 650
+2019-07-09 17:44:00,525 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 83), worker 2 processes q8-2, # results: 139
+2019-07-09 17:44:00,525 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 84), worker 0 processes q8-2, # results: 57
+2019-07-09 17:44:00,525 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 84), worker 1 processes q8-2, # results: 314
+2019-07-09 17:44:00,525 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 85), worker 1 processes q8-2, # results: 0
+2019-07-09 17:44:00,525 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 85), worker 0 processes q8-2, # results: 139
+2019-07-09 17:44:00,525 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 85), worker 2 processes q8-2, # results: 548
+2019-07-09 17:44:00,525 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 86), worker 2 processes q8-2, # results: 35
+2019-07-09 17:44:00,525 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 86), worker 1 processes q8-2, # results: 401
+2019-07-09 17:44:00,525 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 87), worker 2 processes q8-2, # results: 214
+2019-07-09 17:44:00,525 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 87), worker 0 processes q8-2, # results: 174
+2019-07-09 17:44:00,525 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 88), worker 2 processes q8-2, # results: 196
+2019-07-09 17:44:00,526 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 88), worker 1 processes q8-2, # results: 436
+2019-07-09 17:44:00,526 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 89), worker 2 processes q8-2, # results: 0
+2019-07-09 17:44:00,526 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 89), worker 1 processes q8-2, # results: 238
+2019-07-09 17:44:00,526 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 89), worker 0 processes q8-2, # results: 317
+2019-07-09 17:44:00,526 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 90), worker 0 processes q8-2, # results: 75
+2019-07-09 17:44:00,526 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 90), worker 1 processes q8-2, # results: 299
+2019-07-09 17:44:00,526 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 91), worker 1 processes q8-2, # results: 0
+2019-07-09 17:44:00,526 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 91), worker 0 processes q8-2, # results: 51
+2019-07-09 17:44:00,526 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 91), worker 2 processes q8-2, # results: 186
+2019-07-09 17:44:00,526 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 92), worker 1 processes q8-2, # results: 0
+2019-07-09 17:44:00,526 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 92), worker 0 processes q8-2, # results: 66
+2019-07-09 17:44:00,526 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 93), worker 0 processes q8-2, # results: 0
+2019-07-09 17:44:00,526 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 94), worker 1 processes q8-2, # results: 0
+2019-07-09 17:44:00,526 [36mINFO [0m [patmat_bench::join::binary_join::single_round] @ (0, 95), worker 2 processes q8-2, # results: 0
+2019-07-09 17:44:00,526 [36mINFO [0m [patmat] Worker 1, PerfStats { # results: 980, max communication: 28294, total_communication: 32123, computing time: 0 secs, decoding time: 0 secs, total time: 0.101 secs }
+2019-07-09 17:44:00,526 [36mINFO [0m [patmat] Worker 0, PerfStats { # results: 1280, max communication: 30203, total_communication: 35503, computing time: 0 secs, decoding time: 0 secs, total time: 0.1 secs }
+2019-07-09 17:44:00,526 [36mINFO [0m [patmat] Worker 2, PerfStats { # results: 2067, max communication: 26908, total_communication: 35329, computing time: 0 secs, decoding time: 0 secs, total time: 0.101 secs }
+
+                        **************************************
+                                Total # results: 252699
+                        **************************************
+
+                     
+	Command being timed: "timeout 3h /mnt/c/Users/Karn/Desktop/cluster_run/bin/patmat /mnt/c/Users/Karn/Desktop/cluster_run/plans/BinaryJoin/unlabelled/q8_plan.json /mnt/c/Users/Karn/Desktop/cluster_run/conf/graph_conf.json BinaryJoin -w 3 -n 1 -h /mnt/c/Users/Karn/Desktop/cluster_run/conf/hosts -p 0 --trindex true --batches 128 --compress true"
+	User time (seconds): 0.14
+	System time (seconds): 0.26
+	Percent of CPU this job got: 222%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.18
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 15932
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4359
+	Voluntary context switches: 0
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

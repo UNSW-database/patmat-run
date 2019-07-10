@@ -1,0 +1,221 @@
+{
+  "query": {
+    "is_directed": false,
+    "is_labelled": true,
+    "vertices": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        2
+      ]
+    ],
+    "edges": [
+      [
+        0,
+        1,
+        null
+      ],
+      [
+        0,
+        2,
+        null
+      ],
+      [
+        1,
+        2,
+        null
+      ],
+      [
+        2,
+        6,
+        null
+      ],
+      [
+        3,
+        4,
+        null
+      ],
+      [
+        3,
+        5,
+        null
+      ],
+      [
+        4,
+        5,
+        null
+      ],
+      [
+        5,
+        6,
+        null
+      ]
+    ],
+    "partial_order": []
+  },
+  "plan": {
+    "joins": [
+      {
+        "extend_indices": [
+          0
+        ],
+        "orders": [],
+        "edge_infos": [
+          [
+            0,
+            null,
+            "None"
+          ]
+        ],
+        "nlabel": 3,
+        "local_vertex": null,
+        "compressed": false
+      },
+      {
+        "extend_indices": [
+          0,
+          1
+        ],
+        "orders": [],
+        "edge_infos": [
+          [
+            0,
+            null,
+            "None"
+          ],
+          [
+            1,
+            null,
+            "None"
+          ]
+        ],
+        "nlabel": 3,
+        "local_vertex": "Any",
+        "compressed": true
+      },
+      {
+        "extend_indices": [
+          0
+        ],
+        "orders": [],
+        "edge_infos": [
+          [
+            0,
+            null,
+            "None"
+          ]
+        ],
+        "nlabel": 2,
+        "local_vertex": null,
+        "compressed": false
+      },
+      {
+        "extend_indices": [
+          2
+        ],
+        "orders": [],
+        "edge_infos": [
+          [
+            2,
+            null,
+            "None"
+          ]
+        ],
+        "nlabel": 4,
+        "local_vertex": null,
+        "compressed": false
+      },
+      {
+        "extend_indices": [
+          3
+        ],
+        "orders": [],
+        "edge_infos": [
+          [
+            3,
+            null,
+            "None"
+          ]
+        ],
+        "nlabel": 3,
+        "local_vertex": null,
+        "compressed": false
+      },
+      {
+        "extend_indices": [
+          3,
+          4
+        ],
+        "orders": [],
+        "edge_infos": [
+          [
+            3,
+            null,
+            "None"
+          ],
+          [
+            4,
+            null,
+            "None"
+          ]
+        ],
+        "nlabel": 3,
+        "local_vertex": "Any",
+        "compressed": true
+      }
+    ],
+    "first_nlabel": 4,
+    "reorder": [
+      2,
+      0,
+      1,
+      6,
+      5,
+      3,
+      4
+    ],
+    "comp_info": {
+      "comp_ord": {
+        "bigger_than": [
+          [],
+          []
+        ],
+        "smaller_then": [
+          [],
+          []
+        ]
+      }
+    },
+    "join_order": {
+      "name": "degree"
+    }
+  },
+  "step_size": 1000000,
+  "is_count_only": true,
+  "is_symmetry_break": false,
+  "tri_index": true,
+  "compressed": true
+}

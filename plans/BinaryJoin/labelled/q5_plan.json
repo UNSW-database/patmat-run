@@ -1,0 +1,194 @@
+{
+  "query": {
+    "is_directed": false,
+    "is_labelled": true,
+    "vertices": [
+      [
+        0,
+        10
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        4,
+        8
+      ]
+    ],
+    "edges": [
+      [
+        0,
+        1,
+        null
+      ],
+      [
+        0,
+        2,
+        null
+      ],
+      [
+        0,
+        3,
+        null
+      ],
+      [
+        0,
+        4,
+        null
+      ]
+    ],
+    "partial_order": []
+  },
+  "temp_dir": "",
+  "prog_name": "q5",
+  "is_compress": true,
+  "batches": 128,
+  "join_plan": {
+    "join_order": [
+      "q5"
+    ],
+    "join_plan": {
+      "q5": {
+        "left_graph": {
+          "graph": {
+            "is_directed": false,
+            "is_labelled": true,
+            "vertices": [
+              [
+                0,
+                10
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                9
+              ],
+              [
+                4,
+                8
+              ]
+            ],
+            "edges": [
+              [
+                0,
+                1,
+                null
+              ],
+              [
+                0,
+                2,
+                null
+              ],
+              [
+                0,
+                3,
+                null
+              ],
+              [
+                0,
+                4,
+                null
+              ]
+            ],
+            "partial_order": []
+          },
+          "join_unit": "Star",
+          "join_key": null,
+          "join_value": null,
+          "compressed_value": null,
+          "batch_value": null
+        },
+        "right_graph": {
+          "graph": {
+            "is_directed": false,
+            "is_labelled": false,
+            "vertices": [],
+            "edges": [],
+            "partial_order": null
+          },
+          "join_unit": null,
+          "join_key": null,
+          "join_value": null,
+          "compressed_value": null,
+          "batch_value": null
+        },
+        "result_graph": {
+          "graph": {
+            "is_directed": false,
+            "is_labelled": true,
+            "vertices": [
+              [
+                0,
+                10
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                9
+              ],
+              [
+                4,
+                8
+              ]
+            ],
+            "edges": [
+              [
+                0,
+                1,
+                null
+              ],
+              [
+                0,
+                2,
+                null
+              ],
+              [
+                0,
+                3,
+                null
+              ],
+              [
+                0,
+                4,
+                null
+              ]
+            ],
+            "partial_order": []
+          },
+          "join_unit": "Star",
+          "join_key": null,
+          "join_value": null,
+          "compressed_value": null,
+          "batch_value": null
+        },
+        "is_count_only": true,
+        "strategy": "Batch",
+        "batches": 128,
+        "in_memory_thresh": 10000000
+      }
+    }
+  }
+}

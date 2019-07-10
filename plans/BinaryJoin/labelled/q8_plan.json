@@ -1,0 +1,603 @@
+{
+  "query": {
+    "is_directed": false,
+    "is_labelled": true,
+    "vertices": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        2
+      ]
+    ],
+    "edges": [
+      [
+        0,
+        1,
+        null
+      ],
+      [
+        0,
+        2,
+        null
+      ],
+      [
+        1,
+        2,
+        null
+      ],
+      [
+        2,
+        6,
+        null
+      ],
+      [
+        3,
+        4,
+        null
+      ],
+      [
+        3,
+        5,
+        null
+      ],
+      [
+        4,
+        5,
+        null
+      ],
+      [
+        5,
+        6,
+        null
+      ]
+    ],
+    "partial_order": []
+  },
+  "temp_dir": "",
+  "prog_name": "q8",
+  "is_compress": true,
+  "batches": 128,
+  "join_plan": {
+    "join_order": [
+      "q8L",
+      "q8R",
+      "q8"
+    ],
+    "join_plan": {
+      "q8L": {
+        "left_graph": {
+          "graph": {
+            "is_directed": false,
+            "is_labelled": true,
+            "vertices": [
+              [
+                2,
+                4
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            "edges": [
+              [
+                2,
+                6,
+                null
+              ]
+            ],
+            "partial_order": []
+          },
+          "join_unit": "Edge",
+          "join_key": [
+            0
+          ],
+          "join_value": [
+            1
+          ],
+          "compressed_value": null,
+          "batch_value": null
+        },
+        "right_graph": {
+          "graph": {
+            "is_directed": false,
+            "is_labelled": true,
+            "vertices": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "edges": [
+              [
+                0,
+                1,
+                null
+              ],
+              [
+                0,
+                2,
+                null
+              ],
+              [
+                1,
+                2,
+                null
+              ]
+            ],
+            "partial_order": []
+          },
+          "join_unit": "Triangle",
+          "join_key": [
+            2
+          ],
+          "join_value": [
+            0,
+            1
+          ],
+          "compressed_value": [
+            1
+          ],
+          "batch_value": null
+        },
+        "result_graph": {
+          "graph": {
+            "is_directed": false,
+            "is_labelled": true,
+            "vertices": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            "edges": [
+              [
+                0,
+                1,
+                null
+              ],
+              [
+                0,
+                2,
+                null
+              ],
+              [
+                1,
+                2,
+                null
+              ],
+              [
+                2,
+                6,
+                null
+              ]
+            ],
+            "partial_order": []
+          },
+          "join_unit": null,
+          "join_key": [
+            3
+          ],
+          "join_value": [
+            0,
+            1,
+            2
+          ],
+          "compressed_value": [
+            1
+          ],
+          "batch_value": null
+        },
+        "is_count_only": false,
+        "strategy": "Batch",
+        "batches": 128,
+        "in_memory_thresh": 10000000
+      },
+      "q8": {
+        "left_graph": {
+          "graph": {
+            "is_directed": false,
+            "is_labelled": true,
+            "vertices": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            "edges": [
+              [
+                0,
+                1,
+                null
+              ],
+              [
+                0,
+                2,
+                null
+              ],
+              [
+                1,
+                2,
+                null
+              ],
+              [
+                2,
+                6,
+                null
+              ]
+            ],
+            "partial_order": []
+          },
+          "join_unit": null,
+          "join_key": [
+            3
+          ],
+          "join_value": [
+            0,
+            1,
+            2
+          ],
+          "compressed_value": [
+            1
+          ],
+          "batch_value": null
+        },
+        "right_graph": {
+          "graph": {
+            "is_directed": false,
+            "is_labelled": true,
+            "vertices": [
+              [
+                3,
+                3
+              ],
+              [
+                4,
+                3
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            "edges": [
+              [
+                3,
+                4,
+                null
+              ],
+              [
+                3,
+                5,
+                null
+              ],
+              [
+                4,
+                5,
+                null
+              ],
+              [
+                5,
+                6,
+                null
+              ]
+            ],
+            "partial_order": []
+          },
+          "join_unit": null,
+          "join_key": [
+            3
+          ],
+          "join_value": [
+            0,
+            1,
+            2
+          ],
+          "compressed_value": [
+            1
+          ],
+          "batch_value": null
+        },
+        "result_graph": {
+          "graph": {
+            "is_directed": false,
+            "is_labelled": true,
+            "vertices": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                3
+              ],
+              [
+                4,
+                3
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            "edges": [
+              [
+                0,
+                1,
+                null
+              ],
+              [
+                0,
+                2,
+                null
+              ],
+              [
+                1,
+                2,
+                null
+              ],
+              [
+                2,
+                6,
+                null
+              ],
+              [
+                3,
+                4,
+                null
+              ],
+              [
+                3,
+                5,
+                null
+              ],
+              [
+                4,
+                5,
+                null
+              ],
+              [
+                5,
+                6,
+                null
+              ]
+            ],
+            "partial_order": []
+          },
+          "join_unit": null,
+          "join_key": null,
+          "join_value": null,
+          "compressed_value": [
+            1,
+            4
+          ],
+          "batch_value": null
+        },
+        "is_count_only": true,
+        "strategy": "Batch",
+        "batches": 128,
+        "in_memory_thresh": 10000000
+      },
+      "q8R": {
+        "left_graph": {
+          "graph": {
+            "is_directed": false,
+            "is_labelled": true,
+            "vertices": [
+              [
+                5,
+                4
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            "edges": [
+              [
+                5,
+                6,
+                null
+              ]
+            ],
+            "partial_order": []
+          },
+          "join_unit": "Edge",
+          "join_key": [
+            0
+          ],
+          "join_value": [
+            1
+          ],
+          "compressed_value": null,
+          "batch_value": null
+        },
+        "right_graph": {
+          "graph": {
+            "is_directed": false,
+            "is_labelled": true,
+            "vertices": [
+              [
+                3,
+                3
+              ],
+              [
+                4,
+                3
+              ],
+              [
+                5,
+                4
+              ]
+            ],
+            "edges": [
+              [
+                3,
+                4,
+                null
+              ],
+              [
+                3,
+                5,
+                null
+              ],
+              [
+                4,
+                5,
+                null
+              ]
+            ],
+            "partial_order": []
+          },
+          "join_unit": "Triangle",
+          "join_key": [
+            2
+          ],
+          "join_value": [
+            0,
+            1
+          ],
+          "compressed_value": [
+            1
+          ],
+          "batch_value": null
+        },
+        "result_graph": {
+          "graph": {
+            "is_directed": false,
+            "is_labelled": true,
+            "vertices": [
+              [
+                3,
+                3
+              ],
+              [
+                4,
+                3
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                6,
+                2
+              ]
+            ],
+            "edges": [
+              [
+                3,
+                4,
+                null
+              ],
+              [
+                3,
+                5,
+                null
+              ],
+              [
+                4,
+                5,
+                null
+              ],
+              [
+                5,
+                6,
+                null
+              ]
+            ],
+            "partial_order": []
+          },
+          "join_unit": null,
+          "join_key": [
+            3
+          ],
+          "join_value": [
+            0,
+            1,
+            2
+          ],
+          "compressed_value": [
+            1
+          ],
+          "batch_value": null
+        },
+        "is_count_only": false,
+        "strategy": "Batch",
+        "batches": 128,
+        "in_memory_thresh": 10000000
+      }
+    }
+  }
+}

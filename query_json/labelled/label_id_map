@@ -1,0 +1,12 @@
+# Node Labels,Label IDs
+continent,0
+tagclass,1
+country,2
+person,3
+city,4
+company,5
+forum,6
+university,7
+tag,8
+comment,9
+post,10

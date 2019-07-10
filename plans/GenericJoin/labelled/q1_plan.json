@@ -1,0 +1,93 @@
+{
+  "query": {
+    "is_directed": false,
+    "is_labelled": true,
+    "vertices": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        9
+      ]
+    ],
+    "edges": [
+      [
+        0,
+        1,
+        null
+      ],
+      [
+        1,
+        2,
+        null
+      ]
+    ],
+    "partial_order": []
+  },
+  "plan": {
+    "joins": [
+      {
+        "extend_indices": [
+          0
+        ],
+        "orders": [],
+        "edge_infos": [
+          [
+            0,
+            null,
+            "None"
+          ]
+        ],
+        "nlabel": 3,
+        "local_vertex": null,
+        "compressed": false
+      },
+      {
+        "extend_indices": [
+          0
+        ],
+        "orders": [],
+        "edge_infos": [
+          [
+            0,
+            null,
+            "None"
+          ]
+        ],
+        "nlabel": 9,
+        "local_vertex": null,
+        "compressed": true
+      }
+    ],
+    "first_nlabel": 10,
+    "reorder": [
+      1,
+      0,
+      2
+    ],
+    "comp_info": {
+      "comp_ord": {
+        "bigger_than": [
+          []
+        ],
+        "smaller_then": [
+          []
+        ]
+      }
+    },
+    "join_order": {
+      "name": "degree"
+    }
+  },
+  "step_size": 1000000,
+  "is_count_only": true,
+  "is_symmetry_break": false,
+  "tri_index": true,
+  "compressed": true
+}

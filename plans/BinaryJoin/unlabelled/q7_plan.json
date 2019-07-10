@@ -1,0 +1,227 @@
+{
+  "query": {
+    "is_directed": false,
+    "is_labelled": false,
+    "vertices": [
+      [
+        0,
+        null
+      ],
+      [
+        1,
+        null
+      ],
+      [
+        2,
+        null
+      ],
+      [
+        3,
+        null
+      ],
+      [
+        4,
+        null
+      ]
+    ],
+    "edges": [
+      [
+        0,
+        1,
+        null
+      ],
+      [
+        1,
+        2,
+        null
+      ],
+      [
+        2,
+        3,
+        null
+      ],
+      [
+        3,
+        4,
+        null
+      ]
+    ],
+    "partial_order": [
+      [
+        0,
+        4
+      ]
+    ]
+  },
+  "temp_dir": "",
+  "prog_name": "q7",
+  "is_compress": true,
+  "batches": 128,
+  "join_plan": {
+    "join_order": [
+      "q7"
+    ],
+    "join_plan": {
+      "q7": {
+        "left_graph": {
+          "graph": {
+            "is_directed": false,
+            "is_labelled": false,
+            "vertices": [
+              [
+                0,
+                null
+              ],
+              [
+                1,
+                null
+              ],
+              [
+                2,
+                null
+              ]
+            ],
+            "edges": [
+              [
+                0,
+                1,
+                null
+              ],
+              [
+                1,
+                2,
+                null
+              ]
+            ],
+            "partial_order": []
+          },
+          "join_unit": "TwinTwig",
+          "join_key": [
+            2
+          ],
+          "join_value": [
+            0,
+            1
+          ],
+          "compressed_value": [
+            0
+          ],
+          "batch_value": null
+        },
+        "right_graph": {
+          "graph": {
+            "is_directed": false,
+            "is_labelled": false,
+            "vertices": [
+              [
+                2,
+                null
+              ],
+              [
+                3,
+                null
+              ],
+              [
+                4,
+                null
+              ]
+            ],
+            "edges": [
+              [
+                2,
+                3,
+                null
+              ],
+              [
+                3,
+                4,
+                null
+              ]
+            ],
+            "partial_order": []
+          },
+          "join_unit": "TwinTwig",
+          "join_key": [
+            0
+          ],
+          "join_value": [
+            1,
+            2
+          ],
+          "compressed_value": [
+            2
+          ],
+          "batch_value": null
+        },
+        "result_graph": {
+          "graph": {
+            "is_directed": false,
+            "is_labelled": false,
+            "vertices": [
+              [
+                0,
+                null
+              ],
+              [
+                1,
+                null
+              ],
+              [
+                2,
+                null
+              ],
+              [
+                3,
+                null
+              ],
+              [
+                4,
+                null
+              ]
+            ],
+            "edges": [
+              [
+                0,
+                1,
+                null
+              ],
+              [
+                1,
+                2,
+                null
+              ],
+              [
+                2,
+                3,
+                null
+              ],
+              [
+                3,
+                4,
+                null
+              ]
+            ],
+            "partial_order": [
+              [
+                0,
+                4
+              ]
+            ]
+          },
+          "join_unit": null,
+          "join_key": null,
+          "join_value": null,
+          "compressed_value": [
+            0,
+            4
+          ],
+          "batch_value": null
+        },
+        "is_count_only": true,
+        "strategy": "Batch",
+        "batches": 128,
+        "in_memory_thresh": 10000000
+      }
+    }
+  }
+}
