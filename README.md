@@ -47,13 +47,13 @@ Note!!: In the experiment, we treat all data graphs as undirected graphs.
 We offer a tool to preprocess a raw graph file (in csv format) into the formatted graph used in the experiment.
 Consider a graph stored as "dir/to/sample.csv", in which each line is in the form of
 
-"src_id<separator>dst_id[<separator>edge_label]"
+`src_id<separator>dst_id[<separator>edge_label]`
 
 where the label part is optional, depending on whether it is a labelled graph or not. If it is 
 a labelled graph, you should further provide a node label file, suppose is "/dir/to/sample_nl.csv",
 and each line is in the form of:
 
-"node_id<separator>node_label"  —— separator should be the same as the edge file.
+`node_id<separator>node_label`  —— separator should be the same as the edge file.
 
 Then you call the following for preprocessing:
 `python3 preprocessing.py <graph_name> <edge_file> <sep[tab|comma|space]> <has_headers> <buffer_size> [node_file]`
