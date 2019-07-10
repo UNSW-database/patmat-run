@@ -32,9 +32,12 @@ The configuration folder is "conf", where there are three files to configure:
 The storage hierarchy used in the experiment looks like the following.
 
 $workdir
-----$persist_data
---------DATA
-------------$prefix
+
+---- $persist_data
+
+-------- DATA
+
+------------ $prefix
 
 **************************************************************************************
 Note!!: In the experiment, we treat all data graphs as undirected graphs.
