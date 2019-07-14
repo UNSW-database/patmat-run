@@ -7,11 +7,12 @@
 The configuration folder is "conf", where there are three files to configure:
 ### params.ini
 * workdir: The **absolute** directory of the working folder. It is the root directory
-        of the data and temporary files. After configuring the workdir, you data should be placed at: $workdir/$graph_name/DATA/$prefix.
+        of the data and temporary files. After configuring the workdir, your data should be placed at: $workdir/$graph_name/DATA/$prefix.
 * number_workers: number of workers in each machine.
 * number_machines: number of machines used in cluster.
 
-### hosts. The host file used in Timely dataflow. Each line is in the form of:
+### hosts. 
+The host file used in Timely dataflow. Each line is in the form of:
        `host:port`, where host can be either host name or ip_addr, port can be any available port.
 
 ### graph_conf.json
