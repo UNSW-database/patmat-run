@@ -263,13 +263,19 @@ All logs can be found in logs folder, with "logs/<algorithm>" and "logs/partitio
 
 ## Contributors
 
-* "Longbin Lai <longbin.lai@gmail.com>",
-* "Zhengyi Yang <yangzhengyi188@gmail.com>",
-* "Zhu Qing <skullpirate.qing@gmail.com>",
-* "Xin Jin <xinj.cs@gmail.com>",
-* "Zhengmin Lai <zhengmin.lai@gmail.com>",
-* "Ran Wang <wangranSEI@gmail.com>",
-* "KongZhang Hao <haokongzhang@gmail.com>",
+* "Longbin Lai, <longbin.lai@gmail.com>",
+* "Zhengyi Yang, <yangzhengyi188@gmail.com>",
+* "Zhu Qing, <skullpirate.qing@gmail.com>",
+* "Xin Jin, <xinj.cs@gmail.com>",
+* "Zhengmin Lai, <zhengmin.lai@gmail.com>",
+* "Ran Wang, <wangranSEI@gmail.com>",
+* "KongZhang Hao, <haokongzhang@gmail.com>",
+
+## Acknowledgements
+Special thanks to the following people and organizations for their supports to this work.
+* "Xuemin Lin, Wenjie Zhang, CSE, UNSW Sydney, <{lxue,zhangw}@cse.unsw.edu.au>",
+* "Lu Qin, Ying Zhang, CAI, UTS Sydney, <{lu.qin, ying.zhang}@uts.edu.au>",
+* "Zhengping Qian, Jingren Zhou, Alibaba corporation, <{zhengping.qzp, jingren.zhou}@alibaba-inc.com>"
 
 ## Issues
 
