@@ -276,7 +276,8 @@ Special thanks to the following people and organizations for their supports to t
 * "Xuemin Lin, Wenjie Zhang, CSE, UNSW Sydney, <{lxue,zhangw}@cse.unsw.edu.au>",
 * "Lu Qin, Ying Zhang, CAI, UTS Sydney, <{lu.qin, ying.zhang}@uts.edu.au>",
 * "Zhengping Qian, Jingren Zhou, Alibaba corporation, <{zhengping.qzp, jingren.zhou}@alibaba-inc.com>"
+* "Zhejiang Lab, <http://en.zhejianglab.com/>"
 
 ## Issues
 
-Please send to <longbin.lai@gmail.com> for any further questions.
+Please send to <longbin.lai@gmail.com>, <yangzhengyi188@gmail.com> for any further questions.
