@@ -1,6 +1,6 @@
 {
     "storage": {
-        "workdir": "/Data/Share/Code/patmat-run/workdir",
+        "workdir": "/path/to/patmat-run/data",
         "persist_data": "sampleUnlabelled",
         "temp_data": "temp"
     },
